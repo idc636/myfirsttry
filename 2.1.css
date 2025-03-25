@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+}
+
+h1 {  /* Заголовок */
+    font-size: 32pt;
+    text-align: center;
+}
+
+p {  /* Обычный текст */
+    font-size: 14pt;
+    text-align: justify;
+}
+
+.picture {  /* Центрирование блока с картинкой */
+    text-align: center;
+}
+
+.picture img {  /* Изображение внутри .picture (67% от ширины родительского контейнера) */
+    width: 67%;
+}
+
+p.greeting {  /* Специальный стиль для приветственного текста */
+    font-size: 24pt;
+}
